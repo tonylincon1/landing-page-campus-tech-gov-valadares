@@ -103,10 +103,9 @@
 			<!-- TOP SLIDER -->
 			<div class="forms">
 				<div class="texto">
-					<h3>VOCÊ ESTÁ PERTO DE GARANTIR SUA CAPACITAÇÃO EM EVENTOS DE INOVAÇÃO!</h3>
-					<h2>ANIMADX PARA INICIAR ESSA JORNADA?<h2>
-					<h4>*Antes de enviar o formulário, baixe aqui o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>, assine e anexe no momento da resposta do formulário</h4>
-					<h6>*A assinatura poderá ser através da impressão do questionário ou de forma digital. Caso você opte pela digital, ela deverá ser feita, ou por sites que realizam esse serviço, ou pela digitalização da sua própria assinatura em uma folha branca para colagem no documento. Não aceitamos apenas nomes digitados como forma de assinatura.</h6>
+					<h3>VOCÊ ESTÁ PERTO DE GARANTIR SUA CAPACITAÇÃO!</h3>
+					<h2>BORA INICIAR ESSA JORNADA?<h2>
+					<h4>*Baixe o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>, assine de forma manual ou digital e clique em anexar o PDF para realizar sua inscrição.</h4>
 				</div>
 				<div class="content">
 					<form name="form" id="Página1">
@@ -114,6 +113,9 @@
 
 					  <input id="Nome-Completo" name="Nome-Completo" type="text" placeholder="Nome Completo">
 					  <span class='msg-erro msg-nome'></span>
+
+					  <input id="Documento-(CPF/RG)" name="Documento-(CPF/RG)" type="text" placeholder="CPF">
+					  <span class='msg-erro msg-documento'></span>
 				
 					  <input id="E-mail" name="E-mail" type="text" placeholder="E-mail">
 					  <span class='msg-erro msg-email'></span>
@@ -124,12 +126,6 @@
 					  <input id="Telefone" name="Telefone" type="number" placeholder="Telefone">
 					  <span class='msg-erro msg-telefone'></span>
 
-					  <input id="Documento-(CPF/RG)" name="Documento-(CPF/RG)" type="text" placeholder="Documento (CPF/RG)">
-					  <span class='msg-erro msg-documento'></span>
-
-					  <input id="Cidade" name="Cidade" type="text" placeholder="Cidade">
-					  <span class='msg-erro msg-cidade'></span>
-				
 					  <select id="Estado" name="Estado" placeholder="Estado">
 						<option value="">Estado</option>
 						<option value="AC">AC</option>
@@ -162,14 +158,23 @@
 					  </select>
 					  <span class='msg-erro msg-estado'></span>
 
+					  <input id="Cidade" name="Cidade" type="text" placeholder="Cidade">
+					  <span class='msg-erro msg-cidade'></span>
+
 					  <input id="Universidade" name="Universidade" type="text" placeholder="Universidade">
 					  <span class='msg-erro msg-universidade'></span>
 
-					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Formato (Presencial/EAD)">
+					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Formato">
 					  <span class='msg-erro msg-formato'></span>
 
-					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="text" placeholder="Número de Matrícula">
+					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Turno">
+					  <span class='msg-erro msg-formato'></span>
+
+					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="text" placeholder="Matrícula">
 					  <span class='msg-erro msg-matricula'></span>
+
+					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Período">
+					  <span class='msg-erro msg-formato'></span>
 
 					  <input id="Curso" name="Curso" type="text" placeholder="Curso">
 					  <span class='msg-erro msg-curso'></span>
@@ -180,6 +185,9 @@
 						<option value="Não">Não</option>
 					  </select>
 					  <span class='msg-erro msg-trabalha'></span>
+
+					  <input id="Telefone" name="Telefone" type="number" placeholder="Horário">
+					  <span class='msg-erro msg-telefone'></span>
 
 					  <select id="Necessidades-especiais?" name="Necessidades-especiais?" placeholder="Necessidades Especiais?">
 						<option value="">Necessidades Especiais?</option>
@@ -198,16 +206,15 @@
 					  </select>
 					  <span class='msg-erro msg-publico'></span>
 
-					  <textarea id="Interesse" name="Interesse" placeholder="Escreva sobre seu interesse no programa"></textarea>
+					  <textarea id="Interesse" name="Interesse" placeholder="Carta de intenção"></textarea>
 					  <span class='msg-erro msg-interesse'></span>
 
-					  <label>*Antes de enviar o formulário, baixe aqui o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>, assine e anexe no momento da resposta do formulário</label>
-					  <label for="LinkQuetionario">Anexe o Questionário de Deligência: </label><input type="file"  accept="application/pdf" name="LinkQuetionario" class="LinkQuetionario" id="LinkQuetionario" required>
+					  <label for="LinkQuetionario">Anexar o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>: </label><input type="file"  accept="application/pdf" name="LinkQuetionario" class="LinkQuetionario" id="LinkQuetionario" required>
 					  <span class='msg-erro msg-questionario'></span>
 
 					  <div class="Politicadiv">
 						<input type="checkbox" id="Politica" name="Politica" value="Aceito a Política de Privacidade e Proteção de Dados" required>
-						<label for="Politica">Li e concordo com a <a href="#popuppolitica">política de privacidade e proteção de dados</a></label>
+						<label for="Politica">Li e Concordo com os <a href="#popuppolitica">Termos de Serviço</a></label>
 							<div id="popuppolitica" class="overlay1">
 								<div class="popupforms">
 									<a class="close" href="#forms">x</a>
@@ -221,7 +228,7 @@
 					  <span class='msg-erro msg-politica'></span>
   					  
 				  
-					  <input class="btn btn-active" type="submit" value="Enviar">
+					  <input class="btn btn-active" type="submit" value="INSCREVER">
 					  <span class='msg-erro msg-envio'></span>
 					</form>
 
