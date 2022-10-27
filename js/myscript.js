@@ -68,8 +68,6 @@ jQuery(window).load(function(){
 		asNavFor: '.top_slider'
 	});
 	
-	homeHeight();
-	
 	
 	jQuery('.flexslider.top_slider .flex-direction-nav').addClass('container');
 	
@@ -83,16 +81,6 @@ jQuery(window).load(function(){
 		slideshow: false,
 	});
 	
-	
-});
-
-jQuery(window).resize(function(){
-	homeHeight();
-	
-});
-
-jQuery(document).ready(function(){
-	homeHeight();
 	
 });
 
