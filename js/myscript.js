@@ -96,11 +96,6 @@ jQuery(document).ready(function(){
 	
 });
 
-function homeHeight(){
-	var wh = jQuery(window).height() - 80;
-	jQuery('.top_slider, .top_slider .slides li').css('height', wh);
-}
-
 
 
 

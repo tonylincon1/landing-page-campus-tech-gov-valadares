@@ -26,14 +26,11 @@ body {
 	line-height: 20px;
 	color: #666;
 	background-color:#fff;
+	background-image:url(../images/fundo.png);
 }
 #page {overflow-x:hidden;
 	position:relative;
 	z-index:5;
-	background-size: 30px 30px;
-	background-image:
-		linear-gradient(to right, #FDA94B 1px, transparent 1px),
-		linear-gradient(to bottom, #FDA94B 1px, transparent 1px);
 }
 
 .preloader_hide {opacity:0;}
@@ -43,7 +40,7 @@ body {
 
 .contents {padding-top: 10%;}
 
-.container1 {padding-top:15px;padding-left:0; padding-right:0; padding-bottom:2%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
+.container1 {padding-left:0; padding-right:0; padding-bottom:2%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
 .container2 {padding-left:0; padding-right:0; padding-bottom:1%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
 
 .col{
@@ -63,11 +60,16 @@ body {
 
 .purpose_block1{
 	padding:3%;
-	background-color: #62186A;
+	background-color: #D0BAD3;
 }
 
 .bg-black.text-center.py-5{
-	color: white;
+	color: #000000;
+}
+
+.imgz {
+    text-align: left;
+    display: flex;
 }
 
 .parallax {
@@ -176,7 +178,7 @@ h2 b {font-weight:800;}
 .purpose_block .container1 .row p b {font-weight:500; color:#ff8701}
 #inscricoes .purpose_block .container1 .row1 h2 b strong {color:#ff8701}
 
-h3 {margin:0 0 21px; padding-top: 2%; line-height:25px; font-size:32px; color:#62186A}
+h3 {margin:0 0 21px; padding-top: 5%; line-height:25px; font-size:32px; color:#62186A}
 h3 b {font-weight:900;}
 h4 {margin:0 0 34px; line-height:25px; font-size:20px;}
 h4 b {font-weight:500;}
@@ -250,17 +252,10 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 .purpose_block .container1 .row .btn-active {background-color:#fb133a; color:white; border-color:#fb133a; border-radius: 10px;}
 .top_slider .btn-active {background-color:#ff8701; color:#fff; border-color:#ff8701; border-radius: 40px;}
 /*.purpose_block .container #motivos .btn-active {background-color:#ff8701; color:#62186A; border-color:#ff8701; border-radius: 10px;} */
-
-.purpose_block .container1 #colorpopup1 {background-color:white; color:#fb133a; border-color:#fb133a; border-radius: 10px;}
 .purpose_block .container1 #colorpopup2 {background-color:white; color:#ff8701; border-color:#ff8701; border-radius: 10px;}
 .purpose_block .container1 #colorpopup3 {background-color:white; color:#62186A; border-color:#62186A; border-radius: 10px;}
 .purpose_block .container1 #colorpopup4 {background-color:white; color:#00baa7; border-color:#00baa7; border-radius: 10px;}
 .purpose_block .container1 #colorpopup5 {background-color:#fb133a; color:#fff; border-color:#fb133a; border-radius: 10px;}
-
-.purpose_block .container1 #colorpopup1 h5 {background-color:white; color:#fb133a; border-color:#fb133a;}
-.purpose_block .container1 #colorpopup2 h5 {background-color:white; color:#ff8701; border-color:#ff8701;}
-.purpose_block .container1 #colorpopup3 h5 {background-color:white; color:#62186A; border-color:#62186A; }
-.purpose_block .container1 #colorpopup4 h5 {background-color:white; color:#00baa7; border-color:#00baa7;}
 .purpose_block .container1 #colorpopup5 h5 {background-color:#fb133a; color:#fff; border-color:#fb133a;}
 .purpose_block .container1 #colorpopup1 h5,
 .purpose_block .container1 #colorpopup2 h5,
@@ -707,7 +702,7 @@ header {
 
 /* __________ Clean Code __________ */
 .cleancode_block {
-	padding:96px 0 20px;
+	padding:10% 0 20px;
 	background-size:cover;
 	background-position:0 0;
 	background-attachment:fixed !important;
@@ -883,19 +878,19 @@ ul.ul_metodologia img {
 	padding-top: 2%;
 }
 
-#aprender .purpose_block .row4 h2 strong b {
+#aprender .bloco1 h2 strong b {
 	font-weight:500;
 	color:#ff8701;
 }
 
-#aprender .purpose_block .row4 p {
-	margin-bottom:0px;
-	font-weight:300;
-	line-height:50px;
-	font-size:25px;
-	color:#62186A;
-	margin-left: 5%;
-	margin-right: 5%;
+#aprender .bloco1 p {
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 25px;
+    color: #000000;
+    padding-top: 2%;
+    text-align: justify;
 }
 
 .purpose_block .btn {margin-top:30px; margin-right:16px;}
@@ -973,18 +968,19 @@ p.centralizar_p {
 
 
 button.accordion {
-    background-color: #62186A;
-    color: white;
+    background-color: #FAF3E0;
+    /* color: white; */
     cursor: pointer;
     padding: 18px;
-    width: 75%;
+    width: 90%;
     text-align: left;
-    border: none;
+    /* border: none; */
     outline: none;
     transition: 0.4s;
-	font-size: 20px;
-	border-radius: 10px;
-	margin-bottom: 0.5%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+    border-color: #00BAA7;
 }
 
 
@@ -1000,7 +996,7 @@ div.panel.show {
 
 div.panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: transparent;
     max-height: 0;
     overflow: hidden;
     transition: 0.6s ease-in-out;
@@ -1072,6 +1068,40 @@ div.panel.show {
 	padding-left: 7%;
   }
 
+  .col-lg-6z {
+	display: flex;
+	width: 40%;
+  }
+
+  .col-lg-6z p{
+	font-size: 20px;
+	padding-bottom: 10%;
+  }
+
+  .bloco1{
+	width: 50%;
+	position: absolute;
+	padding: 5%;
+  }
+  .bloco1 p{
+	text-align: left;
+  }
+
+  .bloco2{
+	width: 50%;
+    position: relative;
+    margin-left: 45%;
+  }
+
+  .atraves_da_imgz {
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 2.2%;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
   .top_slider .overlay {
     position: absolute;
     width: 100%;
@@ -1089,6 +1119,7 @@ div.panel.show {
 .top_slider {
 	padding-left: 7%;
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .intro-img {
