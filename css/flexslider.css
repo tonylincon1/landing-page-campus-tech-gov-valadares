@@ -290,7 +290,7 @@ html[xmlns] .slides {display: block;}
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
-.top_slider .col-lg-6 .contents .head-title {margin-bottom:15px; display:inline-block; line-height:50px; font-size:42px; display: flex; text-align: center; justify-content: center;}
+.top_slider .col-lg-6 .contents .head-title {margin-bottom:15px; display:inline-block; line-height:50px;  display: flex; text-align: center; justify-content: center;}
 .top_slider .col-lg-6 .contents .head-title b {color:#FF8701;}
 .top_slider .col-lg-6 .contents .tagp {font-size:25px; color:#000000; display: flex; text-align: center;line-height:30px;font-weight: 500;}
 .top_slider .slide1 .flex_caption1 .title3 {margin-bottom:15px; display:inline-block; font-weight:100; line-height:80px; font-size:80px;color:black}
