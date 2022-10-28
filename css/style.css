@@ -891,8 +891,6 @@ ul.ul_metodologia img {
 #aprender .bloco1 p {
     margin-bottom: 30px;
     font-weight: 500;
-    line-height: 40px;
-    font-size: 25px;
     color: #000000;
     padding-top: 2%;
     text-align: justify;
@@ -1141,6 +1139,11 @@ div.panel.show {
 	width: 50%;
     position: relative;
     margin-left: 48%;
+  }
+
+  .btn_aprender {
+	width: 40%;
+	height: 30%;
   }
 
   .atraves_da_imgz {
@@ -2396,6 +2399,43 @@ input[type="color"]:focus {
 		padding: 15px;
 	}
 
+	.motivos_ul li {
+		padding-bottom: 22%;
+	}
+
+	.motivos_ul_texto li p {
+		padding-top: 0%;
+		line-height: 20px;
+		text-align: left;
+	}
+	.atraves_da_img_2 p{
+		padding-top: 1.5%;
+	}
+
+	.atraves_da_img_2 {
+		padding: 0%;
+	}
+
+	ul.ul_metodologia{
+		display: flex;
+		justify-content: left; 
+		width: 70%;
+	}
+
+	ul.ul_metodologia_w {
+		display: flex;
+		/* justify-content: center; */
+		width: 100%;
+	}
+
+	.purpose_block .btn-active span {
+		font-size: 16px;
+	}
+
+	.edital_ul_texto p {
+		padding-bottom: 8%;
+	}
+
 	.pull-left {width: 100%;}
 
 	.pull-left a .logo {
@@ -2499,7 +2539,7 @@ input[type="color"]:focus {
 	}
 
 	.pull-left a .logo {
-		max-width:40%;
+		max-width:60%;
 	}
 
 	.pull-left {
@@ -2770,19 +2810,102 @@ input[type="color"]:focus {
 	  }
 	
 	  .top_slider .col-lg-6 .contents .head-title {font-size:35px}
-	  .top_slider .col-lg-6 .contents .tagp {font-size: 20px;}
-	  h2 {font-size: 28px}
-	  h2 b {font-size: 28px;}
+	  .top_slider .col-lg-6 .contents .tagp {font-size: 16px;}
+	  h2 {font-size: 40px}
+	  h2 b {font-size: 40px;}
 	  .purpose_block p {font-size: 16px;}
 	  .cleancode_block p.title1 b {font-size: 50px;}
-	  .purpose_block .container1 .row1 h2 {font-size: 40px;}
+	.purpose_block .btn-active span {
+		max-width: 100%;
+	}
+
+	.col-lg-6y {
+		display: none;
+	}
+
+	.edital_ul_texto p {
+		padding-top: 10%;
+		padding-bottom: 0%;
+	}
+	.edital_ul {
+		padding-left: 5%;
+	}
+
+	.edital_ul_texto {
+		padding-bottom: 5%;
+		padding-left: 20%;
+		padding-right: 3%;
+	}
+
+	.motivos_ul_texto p {
+		margin-bottom: 15px;
+	}
+
+	.ul_metodologia img {
+		display: none;
+	}
+
+	.purpose_block p {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	.atraves_da_img_2 {
+		position: relative;
+		height: 234px;
+	}
+
+	ul.ul_metodologia {
+		max-width: 100%;
+		display: grid;
+	}
+
+	.row .img_oque_vamos_aprender {
+		display: none;
+	}
+
+	.img_oque_vamos_aprender {
+		max-width: 90%;
+	}
+
+	.motivos_ul_texto li p {
+		padding-top: 0%;
+		line-height: 15px;
+		padding-bottom: 3%;
+		text-align: left;
+		max-height: 100%;
+	}
+	.motivos_ul li img {
+		max-width: 30%;
+	}
+
+	.motivos_ul {
+		padding-left: 6%;
+	}
+
+	.motivos_ul li {
+		padding-bottom: 10%;
+	}
+
+	.col {
+		padding: 0px;
+	}
+
+	.col p {
+		font-size: 55%;
+	}
+	.col .service-item img {
+		max-width:70%
+	}
+	.row {
+		padding-top: 2%;
+	}
 	
 	
 /* __________ Index __________ */
-	h2 {font-size:26px; line-height:26px;}
 	
 	
-	.purpose_block .btn {padding:10px; margin:10px 5px 0 0;}
+	.purpose_block .btn {padding:20px; margin:15px;}
 	
 	
 	.cleancode_block p.title {font-size:26px; line-height:26px;}
@@ -2876,7 +2999,10 @@ input[type="color"]:focus {
 	}
 
 	.pull-left a .logo {
-		max-width: 40%;
+		max-width: 60%;
+	}
+	.pull-right {
+		display: none;
 	}
 
 	.container {
@@ -2889,23 +3015,7 @@ input[type="color"]:focus {
 	}
 
 	.purpose_block .container1 #colorpopup1 {
-		font-size: 7px;
-	}
-
-	.purpose_block .container1 #colorpopup2 {
-		font-size: 7px;
-	}
-
-	.purpose_block .container1 #colorpopup3 {
-		font-size: 7px;
-	}
-
-	.purpose_block .container1 #colorpopup4 {
-		font-size: 7px;
-	}
-
-	.purpose_block .container1 #colorpopup5 {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.popup {
@@ -2931,6 +3041,10 @@ input[type="color"]:focus {
 		font-size: 20px;
 	}
 
+	h2 b {
+		line-height: 30px;
+	}
+
 
 }
 
@@ -2948,6 +3062,34 @@ input[type="color"]:focus {
 
 	.purpose_block .panel p {
 		font-size: 15px;
+	}
+
+	.purpose_block p {
+		margin-bottom: 10px;
+	}
+
+	.bloco2 img {
+		max-width: 50%;
+	}
+
+	.purpose_block .btn {
+		margin: 12px;
+	}
+
+	.purpose_block .container1 #colorpopup1 {
+		font-size: 9px;
+	}
+
+	.motivos_ul li img {
+		display: none;
+	}
+
+	.motivos_ul_texto li p {
+		text-align: center;
+	}
+
+	.motivos_ul_texto {
+		padding-left: 13%;
 	}
 
 	#aprender .purpose_block .row4 p {
@@ -2970,65 +3112,8 @@ input[type="color"]:focus {
 }
 
 @media (max-width: 320px) {
-	.logo a {font-size: 16px;}
-	.time h2 {font-size: 20px;}
-
-	.purpose_block .panel p {
-		font-size: 15px;
-	}
-
-	img {max-width: 100%;}
-
-	.top_slider .col-lg-6 .contents .head-title {font-size: 25px; line-height:40px}
-	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
-
-	.purpose_block p {font-size: 14px; margin-left: 4%; margin-right: 4%;}
-
-	.cleancode_block {padding-top: 28px;}
-
-	.cleancode_block p.title1 b {font-size: 40px;}
-
-	.cleancode_block .nav-tabs li a {width:70px}
-
-	.cleancode_block .nav-tabs {display: flex; justify-content: center;}
-	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
-	.cleancode_block .nav-tabs li a span {font-size: 10px;}
-	.purpose_block .container1 .row1 h2 {font-size: 25px;}
-
-	.purpose_block .container1 #colorpopup1 {
-		font-size: 6px;
-	}
-
-	.purpose_block .container1 #colorpopup2 {
-		font-size: 6px;
-	}
-
-	.purpose_block .container1 #colorpopup3 {
-		font-size: 6px;
-	}
-
-	.purpose_block .container1 #colorpopup4 {
-		font-size: 6px;
-	}
-
-	.purpose_block .container1 #colorpopup5 {
-		font-size: 10px;
-	}
-
-	.purpose_block .btn-active span {
-		font-size: 15px;
-	}
-
-	.popup {
-		margin-top: 30%;
-	}
-
-	.purpose_block .container1 .popup2 p {
-		font-size: 12px;
-	}
-
-	.pull-left a .logo {
-		max-width: 50%;
+	body {
+		display: none;
 	}
 
 }

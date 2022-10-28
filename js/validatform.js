@@ -2,10 +2,10 @@ var form = document.getElementById('Página1');
                 
     form.addEventListener("submit", function validaCadastro(evt) {
         var nome = document.getElementById('Nome-Completo');
+        var documento = document.getElementById('Documento-(CPF/RG)');
         var email = document.getElementById('E-mail');
         var idade = document.getElementById('Idade');
         var telefone = document.getElementById('Telefone');
-        var documento = document.getElementById('Documento-(CPF/RG)');
         var estado = document.getElementById('Estado');
         var cidade = document.getElementById('Cidade');
         var universidade = document.getElementById('Universidade');
@@ -18,6 +18,11 @@ var form = document.getElementById('Página1');
         var publico = document.getElementById('Publico-de-Reassentamento?');
         var interesse = document.getElementById('Interesse');
         var LinkQuetionario = document.getElementById('LinkQuetionario');
+
+        var turno = document.getElementById('turno');
+        var periodo = document.getElementById('periodo');
+        var horario = document.getElementById('horario');
+        var capacitacao = document.getElementById('capacitacao');
         var contErro = 0;
      
      
@@ -77,7 +82,6 @@ var form = document.getElementById('Página1');
         required('.msg-email',email,"E-mail")
         validemail('.msg-email',email)
         required('.msg-idade',idade,"Idade")
-        verificaIdade('.msg-idade',idade)
         required('.msg-telefone',telefone,"Telefone")
         required('.msg-documento',documento,"Documento")
         required('.msg-estado',estado,"Estado")
@@ -88,15 +92,22 @@ var form = document.getElementById('Página1');
         required('.msg-curso',curso,"Curso")
         required('.msg-trabalha',trabalha,"Trabalha?")
         required('.msg-necessidades',necessidades,"Necessidades Especiais")
-        required('.msg-publico',publico,"Público de Reassentamento?")
         required('.msg-interesse',interesse,"Interesse no programa")
+        
+        required('.msg-turno',turno,"Turno")
+        required('.msg-periodo',periodo,"Período")
+        required('.msg-horario',horario,"Horário")
+        required('.msg-capacitacao',capacitacao,"Como ficou Sabendo")
     
+        console.log("teste")
     
         if(contErro > 0){
             evt.preventDefault();
+            console.log(contErro)
         }
     
         else {
+            console.log("dasd")
             form.addEventListener("submit", e => {
                 e.preventDefault();
                 fetch("https://hook.us1.make.com/yfvgtvpc8hg5te3na3uy4ntjxxt72knz", {

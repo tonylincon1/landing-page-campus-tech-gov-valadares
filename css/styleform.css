@@ -1,17 +1,17 @@
-.content {width: 50%; background-color: #62186a; border-radius: 4%;}
+.content {width: 50%; border-radius: 4%;}
 
-form#Página1 {margin: 4%; text-align: center;}
+form#Página1 {margin: 4%; text-align: justify;}
 
 .containerforms{padding-top:8%;text-align: center;width:50%}
 
 .forms h2 {
-    color: white;
-    text-align: left;
+    color: #ff8701;
+    text-align: center;
 }
 
 .forms h3 {
-    color: white;
-    text-align: left;
+    color: #62186A;
+    text-align: center;
     line-height: 40px;
 }
 
@@ -32,7 +32,7 @@ form#Página1 {margin: 4%; text-align: center;}
 }
 
 .texto h4 {
-    color: white;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -41,8 +41,7 @@ form#Página1 {margin: 4%; text-align: center;}
     font-family: 'Poppins', sans-serif;
 }
 
-.forms {display: flex; justify-content: right; padding-right: 2%; padding-left: 2%; padding-bottom: 10%; padding-top: 5%;
-    background: #62186A; background-repeat: repeat-y;}
+.forms {display: flex; justify-content: right; padding-right: 2%; padding-left: 2%; padding-bottom: 10%; padding-top: 5%; background-repeat: repeat-y;}
 
 .msg-erro{
     color: white; 
@@ -53,9 +52,10 @@ form#Página1 {margin: 4%; text-align: center;}
 /* Formulário */
 
 #Página1 h2 {
-    color: white;
-    font-size: 45px;
-    text-align: center;
+    color: #FB133A;
+    font-size: 35px;
+    text-align: left;
+    font-family:'Open Sans', sans-serif;
 }
 
 h6 {
@@ -85,80 +85,92 @@ textarea::placeholder {
 input#Nome-Completo {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
 input#E-mail {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
 input#Idade {
     padding: 10px 8px;
     color: #400a46;
     border: 2px solid #400a46;
-    width: 100%;
+    width: 49%;
     text-align: left;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
-input#Telefone {
+input#Telefone,input#horario {
     padding: 10px 8px;
     color: #400a46;
     border: 2px solid #400a46;
-    width: 100%;
+    width: 49%;
     text-align: left;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
-input#Documento-\(CPF\/RG\) {
+input#Documento-\(CPF\/RG\),input#capacitacao {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
 input#Cidade {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
 }
 
 select#Estado {
-    width: 100%;
+    width: 49%;
     padding: 10px 8px;
     font-size: 15px;
     color: #400a46;
     border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
 input#Universidade {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
 }
 
 input#Formato-\(presencial\/EAD\) {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
+}
+
+input#turno,input#periodo {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+}
+
+select#Formato-\(presencial\/EAD\) {
+    background-color: white;
+    margin-bottom: 1%;
+    width: 49%;
+    padding: 10px 8px;
+    font-size: 15px;
+    color: #400a46;
+    border: 2px solid #400a46;
+    text-align: left;
+    margin-bottom: 1%;
 }
 
 input#Número-de-matrícula {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
 }
 
 input#Curso {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
 }
 
 select#Trabalha\? {
@@ -169,7 +181,7 @@ select#Trabalha\? {
     width: 100%;
     text-align: left;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
 }
 
 select#Necessidades-especiais\? {
@@ -180,13 +192,13 @@ select#Necessidades-especiais\? {
     border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
 }
 
 input#Se-sim-escreva-aqui {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
+    width: 49%;
 }
 
 select#Publico-de-Reassentamento\? {
@@ -197,7 +209,6 @@ select#Publico-de-Reassentamento\? {
     border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
 textarea#Interesse {
@@ -209,13 +220,11 @@ textarea#Interesse {
     border: 2px solid #400a46;
     text-align: left;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
 input#LinkQuetionario {
     background-color: white;
     margin-bottom: 1%;
-    border-radius: 1rem;
 }
 
 input[type="file"] {
@@ -223,7 +232,7 @@ input[type="file"] {
 }
 
 label {
-    color: white;
+    color: #000000;
     font-size: 15px
 }
 
@@ -278,7 +287,9 @@ span.msg-erro.msg-envio {
 
 @media (max-width: 479px) {
     #Página1 h2 {
-        font-size: 30px;
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
     }
 
     .texto {
@@ -293,10 +304,6 @@ span.msg-erro.msg-envio {
 }
 
     .btn-active:hover {color: #400a46;}
-
-    #home {
-        background-image: url("../images/inscricao.png"); background-repeat: repeat-y;
-    }
 
     .popupforms {
         margin-top: 35%;

@@ -161,20 +161,24 @@
 					  <input id="Cidade" name="Cidade" type="text" placeholder="Cidade">
 					  <span class='msg-erro msg-cidade'></span>
 
-					  <input id="Universidade" name="Universidade" type="text" placeholder="Universidade">
+					  <input id="Universidade" name="Universidade" type="text" placeholder="Universidade/Faculdade">
 					  <span class='msg-erro msg-universidade'></span>
 
-					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Formato">
+					  <select id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" placeholder="Formato">
+						<option value="">Formato</option>
+						<option value="EAD">EAD</option>
+						<option value="Presencial">Presencial</option>
+					  </select>
 					  <span class='msg-erro msg-formato'></span>
 
-					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Turno">
-					  <span class='msg-erro msg-formato'></span>
+					  <input id="turno" name="turno" type="text" placeholder="Turno de Trabalho">
+					  <span class='msg-erro msg-turno'></span>
 
 					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="text" placeholder="Matrícula">
 					  <span class='msg-erro msg-matricula'></span>
 
-					  <input id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" type="text" placeholder="Período">
-					  <span class='msg-erro msg-formato'></span>
+					  <input id="periodo" name="periodo" type="text" placeholder="Período">
+					  <span class='msg-erro msg-periodo'></span>
 
 					  <input id="Curso" name="Curso" type="text" placeholder="Curso">
 					  <span class='msg-erro msg-curso'></span>
@@ -186,8 +190,8 @@
 					  </select>
 					  <span class='msg-erro msg-trabalha'></span>
 
-					  <input id="Telefone" name="Telefone" type="number" placeholder="Horário">
-					  <span class='msg-erro msg-telefone'></span>
+					  <input id="horario" name="horario" type="number" placeholder="Horário">
+					  <span class='msg-erro msg-horario'></span>
 
 					  <select id="Necessidades-especiais?" name="Necessidades-especiais?" placeholder="Necessidades Especiais?">
 						<option value="">Necessidades Especiais?</option>
@@ -199,14 +203,10 @@
 					  <input id="Se-sim-escreva-aqui" name="Se-sim-escreva-aqui" type="text" placeholder="Se sim, escreva aqui">
 					  <span class='msg-erro msg-SeSim'></span>
 
-					  <select id="Publico-de-Reassentamento?" name="Publico-de-Reassentamento?" placeholder="Publico-de-Reassentamento?">
-						<option value="">Público de Reassentamento?</option>
-						<option value="Sim">Sim</option>
-						<option value="Não">Não</option>
-					  </select>
-					  <span class='msg-erro msg-publico'></span>
+					  <input id="capacitacao" name="capacitacao" type="text" placeholder="Como ficou sabendo da capacitação?">
+					  <span class='msg-erro msg-capacitacao'></span>
 
-					  <textarea id="Interesse" name="Interesse" placeholder="Carta de intenção"></textarea>
+					  <textarea id="Interesse" name="Interesse" placeholder="Carta de intenção (Por que você deve ser selecionado?)"></textarea>
 					  <span class='msg-erro msg-interesse'></span>
 
 					  <label for="LinkQuetionario">Anexar o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>: </label><input type="file"  accept="application/pdf" name="LinkQuetionario" class="LinkQuetionario" id="LinkQuetionario" required>
@@ -214,7 +214,7 @@
 
 					  <div class="Politicadiv">
 						<input type="checkbox" id="Politica" name="Politica" value="Aceito a Política de Privacidade e Proteção de Dados" required>
-						<label for="Politica">Li e Concordo com os <a href="#popuppolitica">Termos de Serviço</a></label>
+						<label for="Politica"> Li e concordo com o edital e <a href="#popuppolitica">Política de Privacidade de Dados</a></label>
 							<div id="popuppolitica" class="overlay1">
 								<div class="popupforms">
 									<a class="close" href="#forms">x</a>
@@ -226,12 +226,9 @@
 							</div>
 					  </div>
 					  <span class='msg-erro msg-politica'></span>
-  					  
-				  
 					  <input class="btn btn-active" type="submit" value="INSCREVER">
 					  <span class='msg-erro msg-envio'></span>
 					</form>
-
 			</div>
 		</section><!-- //HOME -->
 
