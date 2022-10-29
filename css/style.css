@@ -174,14 +174,16 @@ h1, h2, h3, h4, h5, h6 {
 	color:#333;
 }
 h1 {margin:0 0 26px; line-height:46px; font-size:46px;}
-h2 {margin:0 0 26px; line-height:50px; font-size:60px; color:#62186A;font-weight:800;}
+h2 {margin:0 0 26px; line-height:50px; font-size:60px; color:#62186A;font-weight:500;}
 h2 b {font-weight:800;}
-.purpose_block .container .row h2 b {font-weight:500; color:#00baa7}
-.purpose_block .container .row p b {font-weight:500; color:#ff8701}
-.purpose_block .container #motivos h2 b {font-weight:500; color:#ff8701}
+.purpose_block .container .row h2 b {color:#00baa7}
+.purpose_block .container .row p b {color:#ff8701}
+.container h2 b {color:#ff8701}
+.bloco1 h2 b {color:#ff8701}
+.purpose_block .container #motivos h2 b {color:#ff8701}
 
-#edital .purpose_block .container1 .row h2 b {font-weight:500; color:#fb133a}
-.purpose_block .container1 .row p b {font-weight:500; color:#ff8701}
+#edital .purpose_block .container1 .row h2 b {color:#fb133a}
+.purpose_block .container1 .row p b {color:#ff8701}
 #inscricoes .purpose_block .container1 .row1 h2 b strong {color:#ff8701}
 
 h3 {margin:0 0 21px; padding-top: 5%; line-height:25px; font-size:32px; color:#62186A}
@@ -986,7 +988,7 @@ ul.ul_metodologia img {
 }
 
 .atraves_da_img_2 p {
-	text-align: justify;
+	text-align: center;
     font-size: 30px;
     padding: 0.22%;
 	color: #000000;

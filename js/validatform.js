@@ -116,12 +116,9 @@ var form = document.getElementById('Página1');
                 }).then(
                     response => response.toString()
                 ).then((html) => {
-                    envio = document.querySelector(".msg-envio");
-                    envio.innerHTML = "Suas respostas foram enviadas com sucesso!";
-                    envio.style.display = 'block';
                     setTimeout(function() {
-                        window.location.href = "index.html";
-                    }, 4000);
+                        window.location.href = "inscricao_realizada.html";
+                    }, 1000);
                 })
             });
         }

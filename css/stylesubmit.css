@@ -1,0 +1,17 @@
+body {
+    background-color: #400a46;
+    background-image: none;
+}
+
+.mensagem.de.envio {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.mensagem.de.envio p {
+    color: white;
+    font-size: 20px;
+    padding-top: 5%;
+}
