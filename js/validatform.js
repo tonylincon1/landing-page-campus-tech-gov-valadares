@@ -93,6 +93,7 @@ var form = document.getElementById('Página1');
         required('.msg-trabalha',trabalha,"Trabalha?")
         required('.msg-necessidades',necessidades,"Necessidades Especiais")
         required('.msg-interesse',interesse,"Interesse no programa")
+        required('.msg-publico',publico,"Público de Reassentamento?")
         
         required('.msg-turno',turno,"Turno")
         required('.msg-periodo',periodo,"Período")
