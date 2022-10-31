@@ -1049,6 +1049,110 @@ div.panel.show {
 	margin-right: 12%;
 }
 
+.bottonmotodo:hover {
+	background:transparent;
+}
+
+.bottonmotodo {
+	width: 30%;
+}
+
+.hoverboton1 {
+	background:#FAF3E0;
+	border-color: #62186A;
+    border-width: 6px;
+	color:#62186A;
+}
+
+.hoverboton2 {
+	background:#FAF3E0;
+	border-color: #FB133A;
+    border-width: 6px;
+	color:#FB133A;
+}
+
+.hoverboton3 {
+	background:#FAF3E0;
+	border-color: #FF8701;
+    border-width: 6px;
+	color:#FF8701;
+}
+
+.hoverboton1:hover {
+	background:#62186A;
+	border-color: #62186A;
+    border-width: 6px;
+}
+
+.hoverboton2:hover {
+	background:#FB133A;
+	border-color: #FB133A;
+    border-width: 6px;
+}
+
+.hoverboton3:hover {
+	background:#FF8701;
+	border-color: #FF8701;
+    border-width: 6px;
+}
+
+.bottonoquevaiaprender:hover {
+	background:transparent;
+}
+
+.hoverbotonoquevaiaprender1 {
+	background:#FAF3E0;
+	border-color: #62186A;
+    border-width: 6px;
+	color:#62186A;
+}
+
+.hoverbotonoquevaiaprender2 {
+	background:#FAF3E0;
+	border-color: #00BAA7;
+    border-width: 6px;
+	color:#00BAA7;
+}
+
+.hoverbotonoquevaiaprender3 {
+	background:#FAF3E0;
+	border-color: #FB133A;
+    border-width: 6px;
+	color:#FB133A;
+}
+
+.hoverbotonoquevaiaprender4 {
+	background:#FAF3E0;
+	border-color: #FF8701;
+    border-width: 6px;
+	color:#FF8701;
+}
+
+.hoverbotonoquevaiaprender1:hover {
+	background:#62186A;
+	border-color: #62186A;
+    border-width: 6px;
+}
+
+.hoverbotonoquevaiaprender2:hover {
+	background:#00BAA7;
+	border-color: #00BAA7;
+    border-width: 6px;
+}
+
+.hoverbotonoquevaiaprender3:hover {
+	background:#FB133A;
+	border-color: #FB133A;
+    border-width: 6px;
+}
+
+.hoverbotonoquevaiaprender4:hover {
+	background:#FF8701;
+	border-color: #FF8701;
+    border-width: 6px;
+}
+
+
 #feature {
 	background: url("../images/slider/pexelsphoto3183150.jpg");
 	background-position: 50% 94px;
@@ -1145,7 +1249,7 @@ div.panel.show {
 
   .btn_aprender {
 	width: 40%;
-	height: 30%;
+	height: 35%;
   }
 
   .atraves_da_imgz {
@@ -2414,6 +2518,10 @@ input[type="color"]:focus {
 		padding-top: 1.5%;
 	}
 
+	.purpose_block .btn-active {
+		font-size: 13px;
+	}
+
 	.atraves_da_img_2 {
 		padding: 0%;
 	}
@@ -2804,6 +2912,10 @@ input[type="color"]:focus {
 
 	.purpose_block .panel p {
 		font-size: 20px;
+	}
+
+	.bottonmotodo {
+		width: 100%;
 	}
 
 	.time h2 {
