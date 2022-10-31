@@ -1107,6 +1107,10 @@ div.panel.show {
 	color:#62186A;
 }
 
+.container {
+    max-width: 1270px;
+}
+
 .hoverbotonoquevaiaprender2 {
 	background:#FAF3E0;
 	border-color: #00BAA7;
@@ -1302,6 +1306,12 @@ div.panel.show {
 	-o-transform:scale(0.95);
 	-ms-transform:scale(0.95);
 	-webkit-transform:scale(0.95);
+}
+
+.com_borda_roxa {
+    border-color: rgb(98, 24, 106);
+    border-width: 6px;
+	margin: 0%;
 }
 
 .work_item .work_description {
@@ -2328,6 +2338,10 @@ input[type="color"]:focus {
 	}
 	.col-lg-6 {
 		width: 100%;
+	}
+
+	.container {
+		max-width: 970px;
 	}
 
 	img {
